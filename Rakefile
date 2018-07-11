@@ -13,7 +13,7 @@ end
 namespace :db do
   desc 'access environment'
   task :environment do
-    require_relative '.config/environment.db'
+    require_relative '.config/environment.rb'
   end
 
   desc 'migrate'
