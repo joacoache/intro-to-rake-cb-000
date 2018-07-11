@@ -13,7 +13,7 @@ end
 namespace :db do
   desc 'access environment'
   task :environment do
-    require_relative '.config/environment.rb'
+    require_relative './config/environment.rb'
   end
 
   desc 'migrate'
@@ -23,7 +23,7 @@ namespace :db do
 
   desc 'seeding'
   task :seed do
-    require_relative '.db/seeds.rb'
+    require_relative './db/seeds.rb'
   end
 end
 
